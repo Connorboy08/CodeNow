@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Codenow IDE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Codenow IDE</h1>
+
+  <!-- Language selector -->
+  <label for="language">Select Language:</label>
+  <select id="language">
+    <option value="html">HTML/CSS/JS</option>
+    <option value="javascript">JavaScript</option>
+    <option value="python3">Python 3</option>
+    <option value="c_cpp">C++</option>
+    <option value="java">Java</option>
+  </select>
+
+  <!-- Code editor -->
+  <textarea id="editor">// Write your code here</textarea>
+
+  <!-- Run button -->
+  <button id="run">Run</button>
+
+  <!-- Output display -->
+  <h2>Output:</h2>
+  <iframe id="preview" sandbox="allow-scripts allow-same-origin"></iframe>
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
